@@ -103,7 +103,7 @@ ul.grt-menu li.active a:after  {
     content: "";
     left: 12px;
     right: 12px;
-    border-bottom: 2px solid #FF151f;
+    border-bottom: 2px solid #ee2b34;
 }
 
 @keyframes fadeIn {
@@ -122,7 +122,7 @@ ul.grt-menu li.grt-dropdown:hover a {
 ul.grt-menu li.grt-dropdown ul.grt-dropdown-list {
 	display:none;
 	position:absolute;
-	background:#3d3d3d;
+	background:#ee2b34;
 	margin: 0;
 	padding: 0;
 	min-width:150px;
@@ -145,7 +145,7 @@ ul.grt-menu li.grt-dropdown ul.grt-dropdown-list li:last-child a {
 }
 
 ul.grt-menu li.grt-dropdown.active-dropdown {
-	background: #3d3d3d;
+	background: #ee2b34;
 }
 
 ul.grt-menu li.grt-dropdown.active-dropdown ul.grt-dropdown-list {
@@ -171,15 +171,21 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 
 	ul.grt-menu li.grt-dropdown:hover > a {
 		color:#FFF;
-		box-shadow: inset 150px 0 0 0 #3d3d3d;
+		box-shadow: inset 150px 0 0 0 #ee2b34;
 	}
 
 	ul.grt-menu li a:hover {
 		color:#FFF;
-		box-shadow: inset 150px 0 0 0 #FF151f;
+		box-shadow: inset 150px 0 0 0 #ee2b34;
 	}
 }
 
+/* Tablet only style */
+@media (min-width:768px) and (max-width:991px) {
+	ul.grt-menu li a {
+		font-size:18px;
+	}
+}
 
 /* Mobile only style */
 @media (max-width:767px) {
@@ -235,7 +241,8 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 	.grt-mobile-button-open {
 		position: fixed;
 		z-index:99999;
-		right:30px;
+		right:25px;
+		top:25px;
 	}
 
 	.grt-mobile-button-open .line1 {
