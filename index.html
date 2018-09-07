@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>GRT Responsive Menu - jQuery Plugin</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Demo CSS file not needed for the plugin -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css-demo-page.css">
+
+		<!-- GRT Youtube Plugin CSS -->
+		<link rel="stylesheet" href="grt-responsive-menu.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="menu-container">
+				<div class="row no-margin">
+					<div class="col-sm-4 col-xs-6 no-padding">
+						<a href="#"  class="grt-logo"><img src="logo1.jpg"></a>
+					</div>
+					<div class="col-sm-8 col-xs-6 no-padding">
+						<nav>
+							<button class="grt-mobile-button"><div class="line1"></div><div class="line2"></div><div class="line3"></div></button>
+							<ul class="grt-menu">
+								<li class="active"><a href="">Home</a></li>
+								<li><a href="">About</a></li>
+								<li><a href="">Portfolio</a></li>
+								<li><a href="">Blog</a></li>
+								<li class="grt-dropdown"><a>dropdown</a>
+									<ul class="grt-dropdown-list">
+										<li><a href="">Menu 1</a></li>
+										<li><a href="">Menu 2</a></li>
+										<li><a href="">Menu 3</a></li>
+									</ul>
+								</li>
+								<li><a href="">contact</a></li>								
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="demo-page-container">
+			<!-- Github Button -->
+			<div class="github-position">
+				<a class="github-button" href="https://github.com/grt107/grt-responsive-menu/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download grt107/grt-responsive-menu on GitHub">Download</a>
+				<a class="github-button" href="https://github.com/grt107" data-size="large" aria-label="Follow @grt107 on GitHub">Follow @grt107</a>
+			</div>
+
+			<h3>GRT Fixed Responsive Menu - jQuery Plugin</h3>
+			<p>Simple and lightweight fixed responsive menu for your website.</p>
+
+			
+			<h5>How to use the plugin in your website</h5>
+			
+			<p>1- Include the bootstrap stylesheet file <strong>bootstrap.min.css</strong> inside the <strong>&lt;head&gt;</strong> tag</p>
+			<code>&lt;link rel="stylesheet" href="bootstrap.min.css"&gt;</code>
+
+			<p>2- Include the bootstrap javascript file <strong>bootstrap.min.js</strong> inside the <strong>&lt;body&gt;</strong> tag and after <strong>jquery.min.js</strong></p>
+			<code>&lt;script src="bootstrap.min.js"&gt;&lt;/script&gt;</code>
+
+			<p>3- Include the plugin stylesheet file <strong>grt-responsive-menu.css</strong> inside the <strong>&lt;head&gt;</strong> tag</p>
+			<code>&lt;link rel="stylesheet" href="grt-responsive-menu.css"&gt;</code>
+
+			<p>4- Include the plugin javascript file <strong>grt-responsive-menu.js</strong> inside the <strong>&lt;body&gt;</strong> tag and after <strong>jquery.min.js</strong></p>
+			<code>&lt;script src="grt-responsive-menu.js"&gt;&lt;/script&gt;</code>
+
+			<p>5- Replace your <strong>&lt;header&gt;</strong> with code below:</p>
+<code>
+	&lt;header&gt;
+		&lt;div class="menu-container"&gt;
+			&lt;div class="row no-margin"&gt;
+				&lt;div class="col-sm-4 col-xs-6 no-padding"&gt;
+					&lt;a href="#" class="grt-logo"&gt;&lt;img src="logo1.jpg"&gt;&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div class="col-sm-8 col-xs-6 no-padding"&gt;
+				&lt;nav&gt;
+				 &lt;ul class=&quot;grt-menu&quot;&gt;
+				  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+				  &lt;li&gt;&lt;a href=&quot;&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+				  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+				  &lt;li class=&quot;grt-dropdown&quot;&gt;&lt;a&gt;dropdown&lt;/a&gt;
+				   &lt;ul class=&quot;grt-dropdown-list&quot;&gt;
+				   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Menu 1&lt;/a&gt;&lt;/li&gt;
+				   &lt;li&gt;&lt;a href=&quot;&quot;&gt;Menu 2&lt;/a&gt;&lt;/li&gt;
+				  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Menu 3&lt;/a&gt;&lt;/li&gt;
+				 &lt;/ul&gt;
+				&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;&quot;&gt;contact&lt;/a&gt;&lt;/li&gt;								
+				&lt;/ul&gt;
+				&lt;/nav&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/header&gt;
+</code>
+		</div>
+
+		<!-- Jquery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		
+		<!-- Bootstrap -->
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+		<!-- Github button for demo page -->
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+		<!-- GRT Youtube Popup -->
+		<script src="grt-responsive-menu.js"></script>
+
+	</body>
+</html>
