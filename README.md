@@ -32,7 +32,7 @@ You can check the demo here: [grt107.github.io/grt-responsive-menu/](http://grt1
   <script src="grt-responsive-menu.js"></script>
   ```
 
-5- Replace your ```<header>``` with code below:
+5- Replace your ```<header>``` with the code below:
 
   ```html
  	<header>
