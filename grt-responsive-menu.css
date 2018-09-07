@@ -152,6 +152,10 @@ ul.grt-menu li.grt-dropdown ul.grt-dropdown-list li a {
 	padding: 9px 12px;
 }
 
+ul.grt-menu li.grt-dropdown ul.grt-dropdown-list li:last-child a {
+	padding-bottom:15px;
+}
+
 .active-dropdown {
 	display:block !important;
 }
@@ -226,6 +230,7 @@ ul.grt-menu li.grt-dropdown ul.grt-dropdown-list li a {
 
 	ul.grt-menu li {
 		display: block;
+		line-height: 3.5em;
 	}
 
 	ul.grt-menu li a {

@@ -7,6 +7,10 @@
  * Released under the MIT license
 */
 
+// Prevent href clicks on dropdown category
+$('li.grt-dropdown a').on('click', function(e){
+	e.preventDefault();
+});
 
 // Initialize stuff in mobile resolution
 if ($(window).width() < 768) {
@@ -14,9 +18,6 @@ if ($(window).width() < 768) {
 		$(this).toggleClass("grt-mobile-button-open");
 		$("ul.grt-menu").toggleClass("open-grt-menu ");
 		$("html, body").toggleClass("body-overflow");
-	});
-	$('li.grt-dropdown a').on('click', function(e){
-		e.preventDefault();
 	});
 	$('li.grt-dropdown').on('click', function(e){
 		$(this).children().next().toggleClass("active-dropdown");
