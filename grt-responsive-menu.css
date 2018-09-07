@@ -125,10 +125,6 @@ ul.grt-menu li.grt-dropdown:hover a {
 	color:#FFF;
 }
 
-ul.grt-menu li.grt-dropdown:hover .grt-dropdown-list {
-	display: block;
-}
-
 ul.grt-menu li.grt-dropdown ul.grt-dropdown-list {
 	display:none;
 	position:absolute;
