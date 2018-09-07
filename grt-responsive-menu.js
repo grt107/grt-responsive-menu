@@ -8,7 +8,7 @@
 */
 
 // Prevent href clicks on dropdown category
-$('li.grt-dropdown a').on('click', function(e){
+$('li.grt-dropdown > a').on('click', function(e){
 	e.preventDefault();
 });
 
@@ -20,7 +20,7 @@ if ($(window).width() < 768) {
 		$("html, body").toggleClass("body-overflow");
 	});
 	$('li.grt-dropdown').on('click', function(e){
-		$(this).children().next().toggleClass("active-dropdown");
+		$(this).toggleClass("active-dropdown");
 	});
 }
 
