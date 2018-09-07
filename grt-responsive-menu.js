@@ -13,7 +13,7 @@ if ($(window).width() < 768) {
 	$('.grt-mobile-button').on('click', function(){
 		$(this).toggleClass("grt-mobile-button-open");
 		$("ul.grt-menu").toggleClass("open-grt-menu ");
-		$("body").toggleClass("body-overflow");
+		$("html, body").toggleClass("body-overflow");
 	});
 	$('li.grt-dropdown a').on('click', function(e){
 		e.preventDefault();
