@@ -1,5 +1,6 @@
 # GRT Responsive Menu
 GRT Fixed Responsive Menu - jQuery Plugin
+
 Simple and lightweight fixed responsive menu for your website.
 
 You can check the demo here: [grt107.github.io/grt-responsive-menu/](http://grt107.github.io/grt-responsive-menu/)
