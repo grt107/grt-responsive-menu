@@ -44,6 +44,7 @@ You can check the demo here: [grt107.github.io/grt-responsive-menu/](http://grt1
 				</div>
 				<div class="col-sm-8 col-xs-6 no-padding">
 				<nav>
+				<button class="grt-mobile-button"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button>
 				 <ul class="grt-menu">
 				  <li class="active"><a href="">Home</a></li>
 				  <li><a href="">About</a></li>
