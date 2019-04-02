@@ -1,4 +1,4 @@
-/* Bootstrap Extra Classes */
+/* Extra Classes */
 .no-margin {
 	margin: 0;
 }
@@ -34,6 +34,12 @@ header nav {
 .menu-container {
 	padding-left:30px;
 	padding-right:30px;
+}
+
+.grt-menu-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 a.grt-logo {

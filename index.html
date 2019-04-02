@@ -6,9 +6,6 @@
 		<title>GRT Responsive Menu - jQuery Plugin</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 		<!-- Demo CSS file not needed for the plugin -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 		<link rel="stylesheet" href="css-demo-page.css">
@@ -20,11 +17,11 @@
 	<body>
 		<header>
 			<div class="menu-container">
-				<div class="row no-margin">
-					<div class="col-sm-4 col-xs-6 no-padding">
+				<div class="grt-menu-row">
+					<div class="grt-menu-logo">
 						<a href="#"  class="grt-logo"><img src="logo1.jpg"></a>
 					</div>
-					<div class="col-sm-8 col-xs-6 no-padding">
+					<div class="grt-menu-right">
 						<nav>
 							<button class="grt-mobile-button"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button>
 							<ul class="grt-menu">
@@ -59,28 +56,25 @@
 
 			
 			<h5>How to use the plugin in your website</h5>
-			
-			<p>1- Include the bootstrap stylesheet file <strong>bootstrap.min.css</strong> inside the <strong>&lt;head&gt;</strong> tag</p>
-			<code>&lt;link rel="stylesheet" href="bootstrap.min.css"&gt;</code>
 
-			<p>2- Include the bootstrap javascript file <strong>bootstrap.min.js</strong> inside the <strong>&lt;body&gt;</strong> tag and after <strong>jquery.min.js</strong></p>
-			<code>&lt;script src="bootstrap.min.js"&gt;&lt;/script&gt;</code>
-
-			<p>3- Include the plugin stylesheet file <strong>grt-responsive-menu.css</strong> inside the <strong>&lt;head&gt;</strong> tag</p>
+			<p>1- Include the plugin stylesheet file <strong>grt-responsive-menu.css</strong> inside the <strong>&lt;head&gt;</strong> tag</p>
 			<code>&lt;link rel="stylesheet" href="grt-responsive-menu.css"&gt;</code>
+			
+			<p>2- Include the jquery file <strong>jquery.min.js</strong> inside the <strong>&lt;body&gt;</strong></p>
+			<code>&lt;script src="jquery.min.js"&gt;&lt;/script&gt;</code>
 
-			<p>4- Include the plugin javascript file <strong>grt-responsive-menu.js</strong> inside the <strong>&lt;body&gt;</strong> tag and after <strong>jquery.min.js</strong></p>
+			<p>3- Include the plugin javascript file <strong>grt-responsive-menu.js</strong> inside the <strong>&lt;body&gt;</strong> tag and after <strong>jquery.min.js</strong></p>
 			<code>&lt;script src="grt-responsive-menu.js"&gt;&lt;/script&gt;</code>
 
-			<p>5- Replace your <strong>&lt;header&gt;</strong> with code below:</p>
+			<p>4- Replace your <strong>&lt;header&gt;</strong> with code below:</p>
 <code>
 	&lt;header&gt;
 		&lt;div class="menu-container"&gt;
-			&lt;div class="row no-margin"&gt;
-				&lt;div class="col-sm-4 col-xs-6 no-padding"&gt;
+			&lt;div class="grt-menu-row"&gt;
+				&lt;div class="grt-menu-logo"&gt;
 					&lt;a href="#" class="grt-logo"&gt;&lt;img src="logo1.jpg"&gt;&lt;/a&gt;
 				&lt;/div&gt;
-				&lt;div class="col-sm-8 col-xs-6 no-padding"&gt;
+				&lt;div class="grt-menu-right"&gt;
 				&lt;nav&gt;
 				 &lt;button class="grt-mobile-button"&gt;&lt;span class="line1"&gt;&lt;/span&gt;&lt;span class="line2"&gt;&lt;/span&gt;&lt;span class="line3"&gt;&lt;/span&gt;&lt;/button&gt;
 				 &lt;ul class=&quot;grt-menu&quot;&gt;
@@ -108,10 +102,6 @@
 		<!-- Jquery -->
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		
-		<!-- Bootstrap -->
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
 		<!-- Github button for demo page -->
 		<script async defer src="https://buttons.github.io/buttons.js"></script>
 
