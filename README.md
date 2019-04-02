@@ -9,40 +9,34 @@ You can check the demo here: [grt107.github.io/grt-responsive-menu/](http://grt1
 ![Alt text](/screenshot.jpg?raw=true "Demo Screenshot")
 
 # How to use the plugin in your website:
-1- Include the bootstrap stylesheet file ```bootstrap.min.css``` inside your ```<head>``` tag
-
-  ```html
-  <link rel="stylesheet" href="bootstrap.min.css">
-  ```
-
-2- Include the bootstrap javascript file ```bootstrap.min.js``` inside the ```<body>``` tag and after ```jquery.min.js```
-
-  ```html
-  <script src="bootstrap.min.js"></script>
-  ```
-
-3- Include the plugin stylesheet file ```grt-responsive-menu.css``` inside your ```<head>``` tag
+1- Include the plugin stylesheet file ```grt-responsive-menu.css``` inside your ```<head>``` tag
 
   ```html
   <link rel="stylesheet" href="grt-responsive-menu.css">
   ```
 
-4- Include the plugin javascript file ```grt-responsive-menu.js``` inside the ```<body>``` tag and after ```jquery.min.js```
+2- Include the jquery file ```jquery.min.js``` inside the ```<body>```
+
+  ```html
+  <script src="jquery.min.js"></script>
+  ```
+
+3- Include the plugin javascript file ```grt-responsive-menu.js``` inside the ```<body>``` tag and after ```jquery.min.js```
 
   ```html
   <script src="grt-responsive-menu.js"></script>
   ```
 
-5- Replace your ```<header>``` with the code below:
+4- Replace your ```<header>``` with the code below:
 
   ```html
  	<header>
 		<div class="menu-container">
-			<div class="row no-margin">
-				<div class="col-sm-4 col-xs-6 no-padding">
+			<div class="grt-menu-row">
+				<div class="grt-menu-logo">
 					<a href="#" class="grt-logo"><img src="logo1.jpg"></a>
 				</div>
-				<div class="col-sm-8 col-xs-6 no-padding">
+				<div class="grt-menu-right">
 				<nav>
 				<button class="grt-mobile-button"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button>
 				 <ul class="grt-menu">
