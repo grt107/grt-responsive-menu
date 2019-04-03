@@ -15,19 +15,13 @@ You can check the demo here: [grt107.github.io/grt-responsive-menu/](http://grt1
   <link rel="stylesheet" href="grt-responsive-menu.css">
   ```
 
-2- Include the jquery file ```jquery.min.js``` inside the ```<body>```
-
-  ```html
-  <script src="jquery.min.js"></script>
-  ```
-
-3- Include the plugin javascript file ```grt-responsive-menu.js``` inside the ```<body>``` tag and after ```jquery.min.js```
+2- Include the plugin javascript file ```grt-responsive-menu.js``` inside the ```<body>``` tag and after ```jquery.min.js```
 
   ```html
   <script src="grt-responsive-menu.js"></script>
   ```
 
-4- Replace your ```<header>``` with the code below:
+3- Replace your ```<header>``` with the code below:
 
   ```html
  	<header>
