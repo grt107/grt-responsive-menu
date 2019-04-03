@@ -469,8 +469,7 @@ body strong {
 
 @media (max-width:980px) {
     .demo-page-container {
-        padding-left:15px;
-        padding-right:15px;
+        width: calc(100% - 30px);
     }
 }
 
