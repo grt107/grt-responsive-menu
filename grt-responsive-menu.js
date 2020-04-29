@@ -27,14 +27,14 @@
 $.fn.grtmobile();
 
 // On resize window check for mobile
+var resizeTimer;
 
-var resizeTimeout;
-$(window).resize(function(){
-  if(!!resizeTimeout){ clearTimeout(resizeTimeout); }
-  resizeTimeout = setTimeout(function(){
-    $.fn.grtmobile();
-  },200);
-});
+$(window).on('resize', function(e) {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(function() {
+     $.fn.grtmobile();
+  }, 250);
+})
 
 // Add shadow on scroll after 60px
 $(window).scroll(function(e){
